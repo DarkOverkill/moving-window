@@ -1,0 +1,48 @@
+.info{
+			width:200px;
+			height: 300px;
+			border: solid 1px;
+			position:absolute;
+		}
+		.head{
+			width:179px;
+			height: 20px;
+			background: linear-gradient(silver, whitesmoke, silver);
+			border-bottom: solid 1px grey;
+			float: left;
+			cursor: move;
+			-webkit-user-select: none
+		}
+		.close{
+			background-image: url("close.png");
+			background-size: cover;
+			width:20px;
+			height: 19px;
+			background-color: red;		
+			border: outset 1px;			
+			color: white;
+			text-align: center;
+			display: table-cell;
+			vertical-align: middle;
+			font-family: Arial;
+			-webkit-user-select: none
+		}
+		.close:hover{
+			border: inset 1px;
+		}
+		.close:active{
+			border: inset 1px;
+			background-color: darkred;
+			background-image: url("closeDark.png");
+			-webkit-user-select: none;
+		}
+		.textInfo{
+			background-color: whitesmoke;
+			width: 200px;
+			height: 280px;
+			opacity: 0.7;				
+		}
+		textarea{
+			width: 194px;
+			resize: vertical;
+		}

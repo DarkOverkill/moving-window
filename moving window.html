@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html   onmousemove="move(event); cords(event)" onmouseup="up()">
+	<head>
+		<meta charset="utf-8" >
+		 <link rel="stylesheet" href="style.css"/>
+		 <script src="move.js"></script>
+	</head>
+
+	<body style="background-color:#ddd" >		
+		<div id="coords"></div>
+		<div class="info" id="info">
+			<div class="head" data-val="false" id="head"
+			onmousedown="down(event)"></div>
+				<div class="close"></div>
+				<div class=textInfo>
+					<textarea cols="25" rows="6" maxlength="50"></textarea>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
